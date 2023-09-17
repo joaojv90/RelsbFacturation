@@ -20,7 +20,7 @@
                         <p:submenu label="Inicio" icon="pi pi-fw pi-prime">
                             <p:menuitem value="Home" outcome="/Views/Home" icon="pi pi-fw pi-home"/>
                             <p:divider />
-                            <p:menuitem value="Salir" icon="pi pi-fw pi-sign-out"/>
+                            <p:menuitem value="Salir" icon="pi pi-fw pi-sign-out" action="#{loginBean.logout()}"/>
                         </p:submenu>
                         <p:submenu label="Cliente" icon="pi pi-fw pi-id-card">
                             <p:menuitem value="Ver y Editar" outcome="/Views/Customer/Customer" icon="pi pi-fw pi-user-edit"/>
